@@ -1,0 +1,489 @@
+@media all and (min-width: 1400px)
+{
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        background-color: rgb(92, 68, 68);
+    }
+    .nav{
+        display: contents;
+    }
+    .nav a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .auto-suggest {
+        width:358px;
+    }
+    .auto-suggest .search {
+    	width:322px;height:33px;margin:4px;padding:0 13px;border:1px solid #cdcdcd;
+    	color:#ccc;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;	
+    	-moz-border-radius:2px;
+    	-webkit-border-radius:2px;
+    	border-radius:2px;
+    	-moz-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #f1f1f1,-4px 4px 0 #f1f1f1,-4px -4px 0 #f1f1f1,4px -4px 0 #f1f1f1;
+    	-webkit-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #f1f1f1,-4px 4px 0 #f1f1f1,-4px -4px 0 #f1f1f1,4px -4px 0 #f1f1f1;
+    	box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #f1f1f1,-4px 4px 0 #f1f1f1,-4px -4px 0 #f1f1f1,4px -4px 0 #f1f1f1
+    }
+    .auto-suggest .search:focus {
+    	color:#555;border-color:#c8c8c8;	
+    	-moz-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #ececec,-4px 4px 0 #ececec,-4px -4px 0 #ececec,4px -4px 0 #ececec;
+    	-webkit-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #ececec,-4px 4px 0 #ececec,-4px -4px 0 #ececec,4px -4px 0 #ececec;
+    	box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #ececec,-4px 4px 0 #ececec,-4px -4px 0 #ececec,4px -4px 0 #ececec
+    }
+    .auto-suggest .suggestions {
+    	width:342px;position:relative;margin:-6px auto 0;padding:0;list-style-type:none;border:1px solid #d5d4d4;background:#fff;
+    	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:13px;color:#555;	
+    	-moz-border-radius:2px;
+    	-webkit-border-radius:2px;
+    	border-radius:2px;	
+    	-moz-box-shadow:0 1px 3px rgba(0,0,0,0.1);
+    	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.1);
+    	box-shadow:0 1px 3px rgba(0,0,0,0.1)
+    }
+    .presentationmenuiserie{
+        background-image: url(rickykharawala.jpg);
+        background-size: cover;
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: center;
+        color: aliceblue;
+    }
+    .targetblank{
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+    }
+    .pageporte{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .pagefenetre{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .pageterrasse{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .voirlaboutique{
+        text-align: center;
+        background-color:black;
+        color: aliceblue;
+    }
+    .marge{
+        margin: 0;
+    }
+    .BLOG{
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+    }
+    .blog1{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .blog2{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .blog3{
+        display: flex;
+        justify-content: space-around;  
+    }
+    #contactform{
+        text-align: center;
+        background-color: rgb(92, 68, 68);
+        color: aliceblue;
+    }
+    .nom{
+        margin-right: 35px;
+    }
+    .prenom{
+        margin-right: 15px;
+    }
+    .email{
+        margin-right: 28px;
+    }
+    .telephone{
+        margin-right: 2px;
+    }
+    .footer{
+        background-image: url(logo.jpg);
+        background-repeat: no-repeat;
+        padding-top: 65px;
+        padding-bottom: 65px;
+        display: flex;
+        flex-direction: row; 
+        background-color: rgb(92, 68, 68);
+        color: aliceblue;
+    }
+    .navigation{
+        margin-left: 900px;
+    }
+    .adresse{
+        margin-left: 550px;
+    }
+
+}
+
+@media all and (min-width: 992px) and (max-width: 1400px)
+{
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        background-color: rgb(92, 68, 68);
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .auto-suggest {
+        width:358px;
+    }
+    .auto-suggest .search {
+    	width:322px;height:33px;margin:4px;padding:0 13px;border:1px solid #cdcdcd;
+    	color:#ccc;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;	
+    	-moz-border-radius:2px;
+    	-webkit-border-radius:2px;
+    	border-radius:2px;
+    	-moz-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #f1f1f1,-4px 4px 0 #f1f1f1,-4px -4px 0 #f1f1f1,4px -4px 0 #f1f1f1;
+    	-webkit-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #f1f1f1,-4px 4px 0 #f1f1f1,-4px -4px 0 #f1f1f1,4px -4px 0 #f1f1f1;
+    	box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #f1f1f1,-4px 4px 0 #f1f1f1,-4px -4px 0 #f1f1f1,4px -4px 0 #f1f1f1
+    }
+    .auto-suggest .search:focus {
+    	color:#555;border-color:#c8c8c8;	
+    	-moz-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #ececec,-4px 4px 0 #ececec,-4px -4px 0 #ececec,4px -4px 0 #ececec;
+    	-webkit-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #ececec,-4px 4px 0 #ececec,-4px -4px 0 #ececec,4px -4px 0 #ececec;
+    	box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #ececec,-4px 4px 0 #ececec,-4px -4px 0 #ececec,4px -4px 0 #ececec
+    }
+    .auto-suggest .suggestions {
+    	width:342px;position:relative;margin:-6px auto 0;padding:0;list-style-type:none;border:1px solid #d5d4d4;background:#fff;
+    	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:13px;color:#555;	
+    	-moz-border-radius:2px;
+    	-webkit-border-radius:2px;
+    	border-radius:2px;	
+    	-moz-box-shadow:0 1px 3px rgba(0,0,0,0.1);
+    	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.1);
+    	box-shadow:0 1px 3px rgba(0,0,0,0.1)
+    }
+    .presentationmenuiserie{
+        background-image: url(rickykharawala.jpg);
+        background-size: cover;
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: center;
+        color: aliceblue;
+    }
+    .targetblank{
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+    }
+    .pageporte{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .pagefenetre{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .pageterrasse{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .voirlaboutique{
+        text-align: center;
+        background-color:black;
+        color: aliceblue;
+    }
+    .marge{
+        margin: 0;
+    }
+    .BLOG{
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+    }
+    .blog1{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .blog2{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .blog3{
+        display: flex;
+        justify-content: space-around;  
+    }
+    #contactform{
+        text-align: center;
+        background-color: rgb(92, 68, 68);
+        color: aliceblue;
+    }
+    .nom{
+        margin-right: 35px;
+    }
+    .prenom{
+        margin-right: 15px;
+    }
+    .email{
+        margin-right: 28px;
+    }
+    .telephone{
+        margin-right: 2px;
+    }
+    .footer{
+        background-image: url(logo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: row; 
+        background-color: rgb(92, 68, 68);
+        color: aliceblue;
+    }   
+    .adresse{
+        margin-left: 785px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px)
+{
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        background-color: rgb(92, 68, 68);
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .auto-suggest {
+        width:358px;
+    }
+    .auto-suggest .search {
+    	width:322px;height:33px;margin:4px;padding:0 13px;border:1px solid #cdcdcd;
+    	color:#ccc;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;	
+    	-moz-border-radius:2px;
+    	-webkit-border-radius:2px;
+    	border-radius:2px;
+    	-moz-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #f1f1f1,-4px 4px 0 #f1f1f1,-4px -4px 0 #f1f1f1,4px -4px 0 #f1f1f1;
+    	-webkit-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #f1f1f1,-4px 4px 0 #f1f1f1,-4px -4px 0 #f1f1f1,4px -4px 0 #f1f1f1;
+    	box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #f1f1f1,-4px 4px 0 #f1f1f1,-4px -4px 0 #f1f1f1,4px -4px 0 #f1f1f1
+    }
+    .auto-suggest .search:focus {
+    	color:#555;border-color:#c8c8c8;	
+    	-moz-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #ececec,-4px 4px 0 #ececec,-4px -4px 0 #ececec,4px -4px 0 #ececec;
+    	-webkit-box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #ececec,-4px 4px 0 #ececec,-4px -4px 0 #ececec,4px -4px 0 #ececec;
+    	box-shadow:inset 0 1px 4px rgba(0,0,0,0.15), 4px 4px 0 #ececec,-4px 4px 0 #ececec,-4px -4px 0 #ececec,4px -4px 0 #ececec
+    }
+    .auto-suggest .suggestions {
+    	width:342px;position:relative;margin:-6px auto 0;padding:0;list-style-type:none;border:1px solid #d5d4d4;background:#fff;
+    	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:13px;color:#555;	
+    	-moz-border-radius:2px;
+    	-webkit-border-radius:2px;
+    	border-radius:2px;	
+    	-moz-box-shadow:0 1px 3px rgba(0,0,0,0.1);
+    	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.1);
+    	box-shadow:0 1px 3px rgba(0,0,0,0.1)
+    }
+    .presentationmenuiserie{
+        background-image: url(rickykharawala.jpg);
+        background-size: cover;
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: center;
+        color: aliceblue;
+    }
+    .targetblank{
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+    }
+    .pageporte{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .pagefenetre{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .pageterrasse{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .voirlaboutique{
+        text-align: center;
+        background-color:black;
+        color: aliceblue;
+    }
+    .marge{
+        margin: 0;
+    }
+    .BLOG{
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+    }
+    .blog1{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .blog2{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .blog3{
+        display: flex;
+        justify-content: space-around;  
+    }
+    #contactform{
+        text-align: center;
+        background-color: rgb(92, 68, 68);
+        color: aliceblue;
+    }
+    .nom{
+        margin-right: 35px;
+    }
+    .prenom{
+        margin-right: 15px;
+    }
+    .email{
+        margin-right: 28px;
+    }
+    .telephone{
+        margin-right: 2px;
+    }
+    .footer{
+        background-image: url(logo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: row; 
+        background-color: rgb(92, 68, 68);
+        color: aliceblue;
+    }  
+    .adresse{
+        margin-left: 590px;
+        text-align: right;
+    } 
+}  
+
+@media screen and (max-width: 576px)
+{
+    .header{
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(92, 68, 68);
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .presentationmenuiserie{
+        background-image: url(rickykharawala.jpg);
+        background-size: cover;
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: center;
+        color: aliceblue;
+    }
+    .targetblank{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+    }
+    .pageporte{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .pagefenetre{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .pageterrasse{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .voirlaboutique{
+        text-align: center;
+        background-color:black;
+        color: aliceblue;
+    }
+    .marge{
+        margin: 0;
+    }
+    .BLOG{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+    }
+    .blog1{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .blog2{
+        display: flex;
+        justify-content: space-around;  
+    }
+    .blog3{
+        display: flex;
+        justify-content: space-around;  
+    }
+    #contactform{
+        text-align: center;
+        background-color: rgb(92, 68, 68);
+        color: aliceblue;
+    }
+    .nom{
+        margin-right: 35px;
+    }
+    .prenom{
+        margin-right: 15px;
+    }
+    .email{
+        margin-right: 28px;
+    }
+    .telephone{
+        margin-right: 2px;
+    }
+    .footer{
+        background-image: url(logo.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(92, 68, 68);
+        color: aliceblue;
+    }
+    .adresse{
+        margin-left: 165px;
+        text-align: right;
+    }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="menuiserie.css" type="text/css" rel="stylesheet">
+    <title>Maquette menuiserie</title>
+    </head>
+
+<body>
+    <header id="Home" class="header">
+        <section class="image1">
+            <img src="logo.jpg" width="220" height="160">
+        </section>
+        <p class="nav">
+            <a href="#Home">Home</a><br>
+            <a href="#Page produits">Page produits</a><br>
+            <a href="#Voir la boutique">Voir la boutique</a><br>
+            <a href="#Blog">Blog</a><br>
+            <a href="#Formulaire">Formulaire</a><br>
+            <a href="#Contact">Contact</a><br>
+        </p>
+        <form>
+            <input type="text" id="tags" class="search" name="search" />
+        </form>
+    </header>
+
+    <section class="presentationmenuiserie">
+        <h1><strong>"Le meilleur du bois pour votre
+            besoin"</strong>
+        </h1>
+    </section> 
+
+    <section id="Page produits" class="targetblank">
+        <div class="porte">
+        <a href="page2.html" target="_blank">
+            <img width="220" height="250" src="porte.jpg"/></a>
+        </div>
+        <div class="fenetre">
+            <a href="page3.html" target="_blank">
+                <img width="220" height="250" src="fenetre.jpg"/></a>
+        </div>
+        <div class="terrasse">
+            <a href="page4.html" target="_blank">
+                <img width="220" height="250" src="terrasse.jpg"/></a>
+        </div>
+    </section>
+    
+    <section id="Voir la boutique" class="voirlaboutique">
+        <h2 class="marge">"Visitez notre boutique et <br>
+            faites-vous livrer gratuitement"
+        </h2><br>
+        <input type="submit" onclick=""; value="Voir la boutique">
+    </section>
+
+    <section id="Blog" class="BLOG">
+        <div>
+            <a href="page5.html" target="_blank">
+                <img width="220" height="250" src="blog1.jpg"/></a>
+        </div>
+        <div>
+            <a href="page6.html" target="_blank">
+                <img width="220" height="250" src="blog2.jpg"/></a>
+        </div>
+        <div>
+            <a href="page7.html" target="_blank">
+                <img width="220" height="250" src="blog3.jpg"/></a>
+        </div>
+    </section>
+
+    <section id="Formulaire">
+        <form id="contactform" action="" method="post">
+            <fieldset>
+              <legend>Vos coordonnées</legend> <!-- Titre du fieldset -->
+              <p>
+              <label class="nom" for="nom">Votre nom</label> : <input type="text" name="nom" id="nom" size="20"/><br>
+              <label class="prenom" for="prenom">Votre prenom</label> : <input type="text" name="prenom" id="prenom" size="20"/><br>
+              <label class="email" for="email">Votre email</label> : <input type="email" name="email" id="email" placeholder="Ex : durant@gmail.com" size="20" maxlength="50"/><br>
+              <label class="telephone" for="telephone">n° de telephone</label> : <input type="text" name="telephone" id="telephone" size="20"/><br>
+              <label for="message">Laissez un message de votre visite, si vous le voulez !</label><br>
+              <textarea name="message" id="message" rows="10" cols="50"></textarea><br>
+              <label for="rgpd">RGPD</label> : <input type="checkbox" name="rgpd" id="rgpd"/><br>
+              <input type="submit" onclick="getValue();" value="Envoyer">
+              </p>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer id="Contact" class="footer">
+            <div class="navigation">
+                <p class="nav">
+                    <a href="#Home">Home</a><br>
+                    <a href="#Page produits">Page produits</a><br>
+                    <a href="#Voir la boutique">Voir la boutique</a><br>
+                    <a href="#Blog">Blog</a><br>
+                    <a href="#Formulaire">Formulaire</a><br>
+                    <a href="#Contact">Contact</a><br>
+                </p>
+            </div>
+            <div class="adresse">
+                <p>Adresse: 52 rue des Collonges,<br>
+                Saint Genis Laval, 69230.<br>
+                Telephone: 07.69.46.74.43.
+                </p>
+            </div>
+    </footer>
+    <script src="menuiserie/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+</body>
